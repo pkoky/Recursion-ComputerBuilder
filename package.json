@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "build": "npx tailwind build ./css/style.css -o ./public/css/style.css"
+    "build": "npx tailwind build ./css/style.css -o ./public/css/style.css",
+    "start": "node build/main.js",
+    "buildTS": "tsc"
   },
   "name": "computerbuilder",
   "version": "1.0.0",
   "main": "main.js",
   "devDependencies": {
+    "@types/node": "^16.11.9",
     "autoprefixer": "^10.4.0",
     "cross-env": "^7.0.3",
     "postcss": "^8.3.11",

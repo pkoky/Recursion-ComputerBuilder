@@ -18,6 +18,8 @@ module.exports = {
             'semi-light-pink': '#DF81A2',
             'semi-dark-pink': '#CA3C6E',
             'dark-pink': '#BF1E56',
+
+            'test': '#A52175',
         }
     },
   },
