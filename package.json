@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tailwind build css/style.css -o public/css/style.css"
+    "build": "npx tailwind build ./css/style.css -o ./public/css/style.css"
   },
   "name": "computerbuilder",
   "version": "1.0.0",
