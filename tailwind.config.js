@@ -20,6 +20,9 @@ module.exports = {
             'dark-pink': '#BF1E56',
 
             'test': '#A52175',
+        },
+        backgroundImage: {
+            'cpu-img': "url('../../src/img/cpu/photo-1617839625591-e5a789593135.avif')"
         }
     },
   },
